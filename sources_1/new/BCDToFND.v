@@ -14,7 +14,7 @@ module BCDToFND(
         .o_FND_Digit(o_FND_Digit)
     );
 
-    BCDToFND_Decoder Fond(
+    BCDToFND_Decoder Font(
         .i_En(i_En),
         .i_Value(i_Value),
         .o_FND_Font(o_FND_Font)
